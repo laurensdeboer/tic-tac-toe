@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F1EB90;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.board {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
